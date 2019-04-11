@@ -7,7 +7,9 @@ import java.util.Scanner;
 
 public class FoodReader {
 
-	
+	/**
+	 * This method read File and save them in ArrayList
+	 */
 	public ArrayList<HealthIndex> readFood(String filename) throws FileNotFoundException {
 
 		ArrayList<FoodIndex> FoodData = new ArrayList<>();
